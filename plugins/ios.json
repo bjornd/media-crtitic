@@ -1,0 +1,1 @@
+{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"config.xml":{"/*":{"<feature name=\"BarcodeScanner\"><param name=\"ios-package\" value=\"CDVBarcodeScanner\" /></feature>":1}}},"installed_plugins":{"com.phonegap.plugins.barcodescanner":{"PACKAGE_NAME":"net.owl-hollow.media-critic"}},"dependent_plugins":{}}
