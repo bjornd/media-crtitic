@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>platforms/android/AndroidManifest.xml</string>
+	<string>www/index.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,20 +21,6 @@
 	<integer>234</integer>
 	<key>metaData</key>
 	<dict>
-		<key>platforms/android/AndroidManifest.xml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>plugins/com.phonegap.plugins.barcodescanner/src/android/LibraryProject/src/com/google/zxing/BarcodeFormat.java</key>
 		<dict>
 			<key>caret</key>
@@ -95,10 +81,69 @@
 				<integer>46</integer>
 			</dict>
 		</dict>
+		<key>www/app/view/Main.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>www/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>61</integer>
+				<key>line</key>
+				<integer>53</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>22</integer>
+		</dict>
+		<key>www/index.html.$old</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>35</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>1</integer>
+		</dict>
+		<key>www/js/index.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>platforms/android/AndroidManifest.xml</string>
+		<string>www/js/index.js</string>
+		<string>www/index.html</string>
+		<string>www/app/view/Main.js</string>
+		<string>www/index.html.$old</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
@@ -162,6 +207,6 @@
 		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{705, 400}, {1215, 778}}</string>
+	<string>{{65, 0}, {1215, 778}}</string>
 </dict>
 </plist>
