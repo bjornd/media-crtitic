@@ -1,1034 +1,0 @@
-TCordovaLib
-v5
-r1
-cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVLocalStorage.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVEcho.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h
-cCpHeader Classes/CDVCommandQueue.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h
-cProcessPCH /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c000000005176AD3D0000000000000110
-t1366732093
-s272
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDV.h
-c0000000051F60EC30000000000000516
-t1375080131
-s1302
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c0000000051F60EC30000000000000C65
-t1375080131
-s3173
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c0000000051F60EC300000000000008BA
-t1375080131
-s2234
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c0000000051F60EC30000000000000473
-t1375080131
-s1139
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c0000000051F60EC3000000000000126E
-t1375080131
-s4718
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c0000000051F60EC30000000000000501
-t1375080131
-s1281
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c0000000051F60EC3000000000000152E
-t1375080131
-s5422
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c0000000051F60EC300000000000004CB
-t1375080131
-s1227
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c0000000051F60EC30000000000000E0D
-t1375080131
-s3597
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c0000000051F60EC30000000000000401
-t1375080131
-s1025
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.h
-c0000000051F60EC30000000000000342
-t1375080131
-s834
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m
-c0000000051F60EC300000000000008DA
-t1375080131
-s2266
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c0000000051F60EC300000000000007E6
-t1375080131
-s2022
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c0000000051F60EC30000000000000DDE
-t1375080131
-s3550
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c0000000051F60EC300000000000003DA
-t1375080131
-s986
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c0000000051F60EC3000000000000098E
-t1375080131
-s2446
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c0000000051F60EC300000000000006CF
-t1375080131
-s1743
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c0000000051F60EC30000000000004C6C
-t1375080131
-s19564
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c0000000051F60EC30000000000000892
-t1375080131
-s2194
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c0000000051F60EC300000000000016AE
-t1375080131
-s5806
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c0000000051F60EC30000000000000C13
-t1375080131
-s3091
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c0000000051F60EC30000000000001B29
-t1375080131
-s6953
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c0000000051F60EC30000000000000408
-t1375080131
-s1032
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.h
-c0000000051F60EC300000000000003E6
-t1375080131
-s998
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m
-c0000000051F60EC300000000000006B6
-t1375080131
-s1718
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c0000000051F60EC3000000000000038D
-t1375080131
-s909
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c0000000051F60EC30000000000000AA2
-t1375080131
-s2722
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c0000000051F60EC4000000000000041C
-t1375080132
-s1052
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c0000000051F60EC40000000000002514
-t1375080132
-s9492
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c0000000051F60EC40000000000000421
-t1375080132
-s1057
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c0000000051F60EC400000000000012A2
-t1375080132
-s4770
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c0000000051F60EC40000000000000ACC
-t1375080132
-s2764
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c0000000051F60EC40000000000008568
-t1375080132
-s34152
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c0000000051F60EC400000000000005A2
-t1375080132
-s1442
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c0000000051F60EC400000000000037C6
-t1375080132
-s14278
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c0000000051F60EC400000000000004B4
-t1375080132
-s1204
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c0000000051F60EC40000000000002216
-t1375080132
-s8726
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c0000000051F60EC40000000000000392
-t1375080132
-s914
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c0000000051F60EC400000000000004D8
-t1375080132
-s1240
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c0000000051F60EC4000000000000037D
-t1375080132
-s893
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c0000000051F60EC400000000000022CC
-t1375080132
-s8908
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c0000000051F60EC400000000000005DA
-t1375080132
-s1498
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c0000000051F60EC40000000000001059
-t1375080132
-s4185
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c0000000051F60EC400000000000003A0
-t1375080132
-s928
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c0000000051F60EC40000000000000584
-t1375080132
-s1412
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c0000000051F60EC40000000000000476
-t1375080132
-s1142
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c0000000051F60EC40000000000000620
-t1375080132
-s1568
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c0000000051F60EC40000000000000346
-t1375080132
-s838
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000051F60F6E0000000000000E23
-t1375080302
-s3619
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
-t2
-s0
-
-N/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a
-t2
-s0
-
-N/var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth
-t1375078822
-s2841900
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies92b328ee46a6b741^8657baee46a6b741^---0#1#0#--18"Check dependencies36"9B019639-5227-4033-AC5B-C7AC03A06780-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.087034
-e396773106.360000
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m287c16f246a6b741^083c5cf246a6b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^4438"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"E8273A95-9EC8-42E1-87F6-4EAB4C185B96-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773105.896560
-e396773106.192179
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m05c3e5f146a6b741^2f3231f246a6b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^4396"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"262C57CD-3A0F-44DE-BBA0-A9ADB01BE37A-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.106971
-e396773106.193904
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m2ba11bf246a6b741^90a331f246a6b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^4396"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"E733D9A1-680C-4170-9C15-B8D7CED81967-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773105.837392
-e396773106.083602
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m8691d6f146a6b741^056a15f246a6b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m0000000000000000^4348"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o36"74F0A709-DB6E-4EE9-8212-772E0C39E68B-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.858555
-e396773104.936958
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m6613dcf046a6b741^880ff0f046a6b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^4426"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"2AF12C37-3597-4D33-A314-C282DFBC7551-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.193510
-e396773106.265326
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.mc3ba31f246a6b741^e1eb43f246a6b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^4348"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"5827FE2C-86F7-41D5-93E4-EEE2C5754B0C-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773105.834850
-e396773106.104628
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m20efd5f146a6b741^8ae51af246a6b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^4396"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"77C6425C-C72B-4C6E-955B-D3D9FDC13D8E-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.937332
-e396773105.836128
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.mde39f0f046a6b741^5b0cd6f146a6b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^4360"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"95E83979-B0A2-4604-9B46-7D23CE80DA1C-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.918981
-e396773105.022921
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.mf981ebf046a6b741^437507f146a6b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^4396"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"054F6ED3-B343-4FBF-B64F-0EF4D1A2E495-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.461294
-e396773106.546438
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m4f5c76f246a6b741^11e18bf246a6b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^4360"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"056FB86F-E522-4CAE-9D53-B17296B10924-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.361334
-e396773106.463637
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m50ab5cf246a6b741^e0be76f246a6b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^4354"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"3B431D0E-B2CE-4B1B-B425-9906F710CAEF-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.938720
-e396773105.836413
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m92b3f0f046a6b741^f71ed6f146a6b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^4390"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"7FC7378A-94D7-44F6-A0EF-EE6F03B84700-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.195211
-e396773106.458188
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.ma8ac32f246a6b741^465b75f246a6b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^4402"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"EDAF3D9F-FEC2-4255-8ADE-23BE5CA07121-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773105.024275
-e396773106.830074
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m826f06f146a6b741^1f80d4f246a6b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^4408"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"B8FAAE89-42F5-48F2-AACB-9FBCFB5BCBD3-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773106.266693
-e396773106.545377
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.mba8344f246a6b741^309c8bf246a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^4414"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"300532CC-25BA-44A1-A9ED-38CCFA424148-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.797891
-e396773104.917646
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m6c7accf046a6b741^64eaeaf046a6b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^4378"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"EF3616B9-36E5-4075-9BDF-6348B00832BC-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773105.837327
-e396773105.895051
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m6092d6f146a6b741^1421e5f146a6b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^4420"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"FE3705CA-C4D2-4126-8FD2-DB8D2DBCC3D5-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.859799
-e396773104.935373
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m0454dcf046a6b741^ad87eff046a6b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^4384"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"3139EA4C-55A6-4770-A828-F4ADD32687C6-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.796575
-e396773104.857468
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m1729ccf046a6b741^8e92dbf046a6b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^4444"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"BBF26D9B-FB6C-4255-9405-037B360D6B65-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.797007
-e396773104.857216
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m4641ccf046a6b741^a48ddbf046a6b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^4480"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"125DC778-211F-43F6-BBDB-4F459BC4C196-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773104.798044
-e396773105.833112
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m8081ccf046a6b741^2c46d5f146a6b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^4420"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG -include /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"9852F651-6B48-45CE-8762-C29BB751404A-
-
-CCpHeader Classes/CDV.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h
-s396773102.819555
-e396773102.862983
-r1
-xCpHeader
-xClasses/CDV.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h60b0d3ee46a6b741^ecf7dcee46a6b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h000000000080d041^1178"CpHeader Classes/CDV.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDV.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDV.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"D2EB87CF-0209-4ABD-B545-E902E96C2504-
-
-CCpHeader Classes/CDVAvailability.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h
-s396773102.819765
-e396773102.839511
-r1
-xCpHeader
-xClasses/CDVAvailability.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.hbb09d2ee46a6b741^6ff3d6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h000000000080d041^1214"CpHeader Classes/CDVAvailability.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVAvailability.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"A7E64600-1438-43FB-A7C2-1AE3A2B63B53-
-
-CCpHeader Classes/CDVCommandDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-s396773102.816884
-e396773102.839139
-r1
-xCpHeader
-xClasses/CDVCommandDelegate.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.hd047d1ee46a6b741^ebe6d6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h000000000080d041^1223"CpHeader Classes/CDVCommandDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegate.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"98F4ECF3-F18D-495D-93E6-DE2752A30735-
-
-CCpHeader Classes/CDVCommandDelegateImpl.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
-s396773102.884683
-e396773102.898464
-r1
-xCpHeader
-xClasses/CDVCommandDelegateImpl.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h6ea2e2ee46a6b741^8909e6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h000000000080d041^1235"CpHeader Classes/CDVCommandDelegateImpl.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"1EF5A11F-CCE9-43B0-BB79-866AA7382DF9-
-
-CCpHeader Classes/CDVCommandQueue.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h
-s396773102.884611
-e396773102.898250
-r1
-xCpHeader
-xClasses/CDVCommandQueue.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h5a9be2ee46a6b741^2102e6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h000000000080d041^1214"CpHeader Classes/CDVCommandQueue.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVCommandQueue.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"6C475027-9864-4D4E-977F-AAFD4606F3CD-
-
-CCpHeader Classes/CDVConfigParser.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h
-s396773102.899078
-e396773102.903386
-r1
-xCpHeader
-xClasses/CDVConfigParser.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.hf44de6ee46a6b741^ff03e8ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h000000000080d041^1214"CpHeader Classes/CDVConfigParser.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVConfigParser.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"7F170E79-53C9-4CA1-B60A-AF0F52540EDB-
-
-CCpHeader Classes/CDVDebug.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h
-s396773102.751101
-e396773102.807170
-r1
-xCpHeader
-xClasses/CDVDebug.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h5a7ec0ee46a6b741^d80dcfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h000000000080d041^1193"CpHeader Classes/CDVDebug.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVDebug.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"50AF8754-3CA1-464C-B7B7-0EACA1E9E01D-
-
-CCpHeader Classes/CDVEcho.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h
-s396773102.864669
-e396773102.897494
-r1
-xCpHeader
-xClasses/CDVEcho.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h508bddee46a6b741^3dd5e5ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h000000000080d041^1190"CpHeader Classes/CDVEcho.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVEcho.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVEcho.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"71EA2775-D868-404F-BE74-0BEC7089FAA5-
-
-CCpHeader Classes/CDVInvokedUrlCommand.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
-s396773102.739750
-e396773102.748342
-r1
-xCpHeader
-xClasses/CDVInvokedUrlCommand.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.hb284bdee46a6b741^eacabfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h000000000080d041^1229"CpHeader Classes/CDVInvokedUrlCommand.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"70D3B0DA-BD19-466D-9588-7085EE755ACF-
-
-CCpHeader Classes/CDVJSON.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h
-s396773102.899386
-e396773102.904036
-r1
-xCpHeader
-xClasses/CDVJSON.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h425fe6ee46a6b741^460be8ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h000000000080d041^1190"CpHeader Classes/CDVJSON.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVJSON.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"D271005D-9758-42CA-9B5A-A24FEFA5DCEC-
-
-CCpHeader Classes/CDVLocalStorage.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-s396773102.840393
-e396773102.883332
-r1
-xCpHeader
-xClasses/CDVLocalStorage.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h1b4cd7ee46a6b741^8060e2ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h000000000080d041^1214"CpHeader Classes/CDVLocalStorage.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVLocalStorage.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"CA242EAF-C1D4-4B71-AF5C-0B19F1058B12-
-
-CCpHeader Classes/CDVPlugin.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h
-s396773102.745178
-e396773102.777197
-r1
-xCpHeader
-xClasses/CDVPlugin.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h46edbeee46a6b741^130cc7ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h000000000080d041^1196"CpHeader Classes/CDVPlugin.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPlugin.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"5A8880AF-F868-42A8-9494-D4C9C996A831-
-
-CCpHeader Classes/CDVPluginResult.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h
-s396773102.740671
-e396773102.748495
-r1
-xCpHeader
-xClasses/CDVPluginResult.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h54e3bdee46a6b741^1bf2bfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h000000000080d041^1214"CpHeader Classes/CDVPluginResult.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVPluginResult.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"4A15C4D1-A2ED-466D-82D2-32F213EB0712-
-
-CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
-s396773102.899044
-e396773102.905934
-r1
-xCpHeader
-xClasses/CDVScreenOrientationDelegate.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h2e92e6ee46a6b741^0e10e8ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h000000000080d041^1253"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"960C5FC2-8F45-4CFF-9F9A-C68FB828D78D-
-
-CCpHeader Classes/CDVShared.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h
-s396773102.896165
-e396773102.899887
-r1
-xCpHeader
-xClasses/CDVShared.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h8e90e5ee46a6b741^4969e6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h000000000080d041^1196"CpHeader Classes/CDVShared.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVShared.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"08456329-254E-4B28-A016-B28DC9A22B67-
-
-CCpHeader Classes/CDVTimer.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h
-s396773102.905079
-e396773102.909760
-r1
-xCpHeader
-xClasses/CDVTimer.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h73dae7ee46a6b741^d600e9ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h000000000080d041^1193"CpHeader Classes/CDVTimer.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVTimer.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"A7504477-2FC3-43AB-861C-EE7BDA34E99A-
-
-CCpHeader Classes/CDVURLProtocol.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-s396773102.781639
-e396773102.807938
-r1
-xCpHeader
-xClasses/CDVURLProtocol.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.hf240c8ee46a6b741^ac1fcfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h000000000080d041^1211"CpHeader Classes/CDVURLProtocol.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVURLProtocol.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"F6A28515-AF0A-483A-969D-AAAF7AEE1354-
-
-CCpHeader Classes/CDVUserAgentUtil.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
-s396773102.904840
-e396773102.908342
-r1
-xCpHeader
-xClasses/CDVUserAgentUtil.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h4bc8e7ee46a6b741^b6bae8ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h000000000080d041^1217"CpHeader Classes/CDVUserAgentUtil.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"99136434-DA3C-4AEB-B190-6C308F55011B-
-
-CCpHeader Classes/CDVViewController.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h
-s396773102.816851
-e396773102.839340
-r1
-xCpHeader
-xClasses/CDVViewController.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h7c47d1ee46a6b741^0feed6ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h000000000080d041^1220"CpHeader Classes/CDVViewController.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVViewController.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"226CCC1C-D528-4314-AE49-67930B888FCE-
-
-CCpHeader Classes/CDVWebViewDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
-s396773102.901608
-e396773102.907592
-r1
-xCpHeader
-xClasses/CDVWebViewDelegate.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h94f6e6ee46a6b741^4e5ee8ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h000000000080d041^1223"CpHeader Classes/CDVWebViewDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"48E3514D-0B9E-4A93-9D9F-7C5D4D4AD701-
-
-CCpHeader Classes/CDVWhitelist.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h
-s396773102.752026
-e396773102.807498
-r1
-xCpHeader
-xClasses/CDVWhitelist.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.hc1a8c0ee46a6b741^d715cfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h000000000080d041^1205"CpHeader Classes/CDVWhitelist.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/CDVWhitelist.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"84395AAD-4D69-4D20-BCD6-9D966FEC9BDC-
-
-CCpHeader Classes/NSArray+Comparisons.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-s396773102.841097
-e396773102.894988
-r1
-xCpHeader
-xClasses/NSArray+Comparisons.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h3271d7ee46a6b741^c9cce5ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h000000000080d041^1226"CpHeader Classes/NSArray+Comparisons.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSArray+Comparisons.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"D2D7A1D5-49E4-423E-9506-F44D373802DB-
-
-CCpHeader Classes/NSData+Base64.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h
-s396773102.740138
-e396773102.747597
-r1
-xCpHeader
-xClasses/NSData+Base64.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.hbaa1bdee46a6b741^5a7fbfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h000000000080d041^1208"CpHeader Classes/NSData+Base64.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSData+Base64.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"498712D0-4B86-4241-B012-516D7AF29F87-
-
-CCpHeader Classes/NSDictionary+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
-s396773102.738963
-e396773102.743305
-r1
-xCpHeader
-xClasses/NSDictionary+Extensions.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h8863bdee46a6b741^d68ebeee46a6b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h000080bebe041042^1238"CpHeader Classes/NSDictionary+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"947F663F-BCB9-4585-9BF1-B302A414754B-
-
-CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
-s396773102.751467
-e396773102.807718
-r1
-xCpHeader
-xClasses/NSMutableArray+QueueAdditions.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.hf086c0ee46a6b741^7a1bcfee46a6b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h000000000080d041^1256"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"049EE250-DAD2-4067-AD98-02E3AD32465A-
-
-CCpHeader Classes/UIDevice+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
-s396773102.840833
-e396773102.883944
-r1
-xCpHeader
-xClasses/UIDevice+Extensions.h
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h0265d7ee46a6b741^dca0e2ee46a6b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h000000000080d041^1226"CpHeader Classes/UIDevice+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova/UIDevice+Extensions.h    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include/Cordova36"3AFF730C-19A9-4948-B857-71F9A90DEE5B-
-
-CLibtool /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a normal i386
-s396773106.836745
-e396773106.969154
-r1
-xLibtool
-x/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Libtool /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a normal i386a051d6f246a6b741^051af8f246a6b741^---0#0#0#--1515"Libtool /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a normal i386    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -filelist /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/libCordova.a36"83AB11F7-B862-4AAA-87FE-7489014312EA-
-
-CProcessPCH /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s396773102.918714
-e396773104.789520
-r1
-xProcessPCH
-x/var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth
-xCordovaLib_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch9a78ebee46a6b741^734ccaf046a6b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^4273"ProcessPCH /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/kirilllebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/kirilllebedev/.rvm/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/Users/kirilllebedev/Applications/Sencha/Cmd/3.0.0.250:/Users/kirilllebedev/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/kirilllebedev/workspace/android-sdk/sdk/platform-tools:/Users/kirilllebedev/workspace/android-sdk/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/kirilllebedev/workspace/js/media-critic/platforms/ios/build -DDEBUG --serialize-diagnostics /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.dia -c /Users/kirilllebedev/workspace/js/media-critic/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bc/t88h5xmd4hjdrkvjbtdxfktw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bgtjvpaolmimgmdsmqrhjysugiug/CordovaLib_Prefix.pch.d36"10C494FF-49B5-4A62-915F-4C3A391A3700-
-
