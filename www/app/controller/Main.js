@@ -5,18 +5,29 @@ Ext.define('MC.controller.Main', {
         control: {
             '#mainView #scanButton': {
                 tap: 'onScanButtonTap'
+            },
+            '#mainView #articleBuyButton': {
+                tap: 'onBuyButtonTap'
             }
         }
     },
 
-    init: function() {
+    launch: function() {
+        Ext.getCmp('mainView').element.dom.addEventListener('click', function(e){
+            var href;
 
+            if (e.target.tagName === 'A') {
+                e.preventDefault();
+                window.open(e.target.getAttribute('href'), '_system', 'location=yes');
+            };
+        })
     },
 
     onScanButtonTap: function(){
-        var scanner;
+        var scanner,
+            that = this;
 
-        if (!window.cordova) {
+        if (1 || !window.cordova) {
             scanner = {
                 scan: function(callback){
                     callback({
@@ -34,6 +45,7 @@ Ext.define('MC.controller.Main', {
             if (!result.cancelled) {
                 MC.model.Article.load(result.text, {
                     success: function(article){
+                        that.lastLoadedArticle = article;
                         Ext.getCmp('mainView').setActiveItem('#article');
                         Ext.getCmp('mainView').child('#article').setData( article.data );
                     }
@@ -42,5 +54,9 @@ Ext.define('MC.controller.Main', {
         }, function (error) {
             alert("Scanning failed: " + error);
         });
+    },
+
+    onBuyButtonTap: function(){
+        window.open(this.lastLoadedArticle.get('amazon_url'), '_system', 'location=yes');
     }
 });

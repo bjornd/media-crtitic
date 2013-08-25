@@ -1,4 +1,5 @@
 www/resources/sass/.sass-cache
+www/resources/css/*
 .DS_Store
 platforms
 media-critic.tmproj

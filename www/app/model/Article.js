@@ -13,8 +13,7 @@ Ext.define('MC.model.Article', {
             "image_url",
             "image_width",
             "image_height",
-            "amazon_id",
-            "amazon_price"
+            "offers"
         ],
         proxy: {
             type: 'rest',

@@ -37,12 +37,24 @@
 
         .x-artice-score-points {
             display: inline-block;
-            background: #66cc33;
             color: white;
             padding: 3px 5px 7px 5px;
             text-align: center;
             vertical-align: middle;
         }
+
+            .x-artice-score-points-favorable {
+                background: #66cc33;
+            }
+
+            .x-artice-score-points-mixed {
+                background: #ffcc33;
+                color: black;
+            }
+
+            .x-artice-score-points-unfavorable {
+                background: #ff0000;
+            }
 
             .x-artice-score-points-value {
                 font-size: 30px;

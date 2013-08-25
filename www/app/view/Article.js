@@ -20,13 +20,13 @@ Ext.define('MC.view.Article', {
                 itemId: 'articleAttributes',
                 tpl: new Ext.XTemplate(
                     '<div class="x-artice-score">',
-                        '<div class="x-artice-score-points">',
+                        '<div class="x-artice-score-points {[ this.getScrorePointsClass(values.score) ]}">',
                             '<div class="x-artice-score-points-value">{score}</div>',
                             '<div class="x-artice-score-points-max">out of 100</div>',
                         '</div>',
-                        '<div class="x-artice-score-title">',
+                        '<!--div class="x-artice-score-title">',
                             '<a href="http://www.metacritic.com/about-metascores" target="_blank">metascore</a>',
-                        '</div>',
+                        '</div-->',
                     '</div>',
                     '<h3>{title} <small></small></h3>',
                     '<ul>',
@@ -34,23 +34,54 @@ Ext.define('MC.view.Article', {
                         '<li>Released on <b>{release_date}</b> by <b>{publisher}</b></li>',
                         '<li>Rating: <b>{maturity_rating}</b></li>',
                     '</ul>',
-                    '<a href="http://www.metacritic.com{metacritic_url}" target="_blank">More info on metacritic.com</a>'
+                    '<a href="http://www.metacritic.com{metacritic_url}" target="_blank">More info on metacritic.com</a>',
+                    {
+                        getScrorePointsClass: function(score){
+                            if (score >= 75) {
+                                return 'x-artice-score-points-favorable';
+                            } else if (score >= 50) {
+                                return 'x-artice-score-points-mixed';
+                            } else {
+                                return 'x-artice-score-points-unfavorable';
+                            }
+                        }
+                    }
                 ),
                 flex: 1
             }],
             padding: '0 0 10 0'
         },{
             xtype: 'button',
-            itemId: 'articleBuyButton',
-            text: 'Buy from Amazon'
+            text: 'Show critic reviews',
+            iconCls: 'arrow_right',
+            iconAlign: 'right'
+        },{
+            xtype: 'button',
+            text: 'Show user reviews',
+            iconCls: 'arrow_right',
+            iconAlign: 'right'
+        },{
+            xtype: 'container',
+            itemId: 'articleOffers',
+            layout: 'hbox'
         }]
     },
 
     setData: function(data){
-        var imageCmp = this.down('#articleImage');
+        var i;
 
         this.down('#articleAttributes').setData(data);
         this.down('#articleImage').setData(data);
-        this.child('#articleBuyButton').setText('Buy from Amazon for '+data.amazon_price);
+
+        this.down('#articleOffers').removeAll();
+        for (i = 0; i < data.offers.length; i++) {
+            this.down('#articleOffers').add(
+                Ext.create('Ext.Button', {
+                    text: 'Buy at '+data.offers[i].name+' for '+data.offers[i].price,
+                    flex: 1,
+                    margin: i === 0 ? 0 : '0 0 0 10'
+                })
+            );
+        }
     }
 });
