@@ -27,7 +27,7 @@ Ext.define('MC.controller.Main', {
         var scanner,
             that = this;
 
-        if (1 || !window.cordova) {
+        if (!window.cordova) {
             scanner = {
                 scan: function(callback){
                     callback({

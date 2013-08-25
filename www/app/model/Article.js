@@ -3,7 +3,14 @@ Ext.define('MC.model.Article', {
     config: {
         idProperty: 'amazon_id',
         fields: [
-            "score",
+            {
+                name: 'score',
+                type: 'int'
+            },
+            {
+                name: 'user_score',
+                type: 'float'
+            },
             "release_date",
             "maturity_rating",
             "publisher",
@@ -13,7 +20,11 @@ Ext.define('MC.model.Article', {
             "image_url",
             "image_width",
             "image_height",
-            "offers"
+            "offers",
+            'critic_reviews',
+            'critic_reviews_total',
+            'user_reviews',
+            'user_reviews_total'
         ],
         proxy: {
             type: 'rest',

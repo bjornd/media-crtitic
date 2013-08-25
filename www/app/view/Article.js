@@ -24,9 +24,20 @@ Ext.define('MC.view.Article', {
                             '<div class="x-artice-score-points-value">{score}</div>',
                             '<div class="x-artice-score-points-max">out of 100</div>',
                         '</div>',
-                        '<!--div class="x-artice-score-title">',
-                            '<a href="http://www.metacritic.com/about-metascores" target="_blank">metascore</a>',
-                        '</div-->',
+                        '<div class="x-artice-score-info">',
+                            '<div class="x-artice-score-info-title">Metascore</div>',
+                            '<div class="x-artice-score-info-reviews">based on {critic_reviews_total} reviews</div>',
+                        '</div>',
+                    '</div>',
+                    '<div class="x-artice-score">',
+                        '<div class="x-artice-score-points {[ this.getUserScrorePointsClass(values.user_score) ]}">',
+                            '<div class="x-artice-score-points-value">{user_score}</div>',
+                            '<div class="x-artice-score-points-max">out of 10</div>',
+                        '</div>',
+                        '<div class="x-artice-score-info">',
+                            '<div class="x-artice-score-info-title">User score</div>',
+                            '<div class="x-artice-score-info-reviews">based on {user_reviews_total} reviews</div>',
+                        '</div>',
                     '</div>',
                     '<h3>{title} <small></small></h3>',
                     '<ul>',
@@ -44,6 +55,15 @@ Ext.define('MC.view.Article', {
                             } else {
                                 return 'x-artice-score-points-unfavorable';
                             }
+                        },
+                        getUserScrorePointsClass: function(score){
+                            if (score >= 8) {
+                                return 'x-artice-score-points-favorable';
+                            } else if (score >= 6) {
+                                return 'x-artice-score-points-mixed';
+                            } else {
+                                return 'x-artice-score-points-unfavorable';
+                            }
                         }
                     }
                 ),
@@ -54,12 +74,14 @@ Ext.define('MC.view.Article', {
             xtype: 'button',
             text: 'Show critic reviews',
             iconCls: 'arrow_right',
-            iconAlign: 'right'
+            iconAlign: 'right',
+            margin: '0 0 10 0'
         },{
             xtype: 'button',
             text: 'Show user reviews',
             iconCls: 'arrow_right',
-            iconAlign: 'right'
+            iconAlign: 'right',
+            margin: '0 0 10 0'
         },{
             xtype: 'container',
             itemId: 'articleOffers',
