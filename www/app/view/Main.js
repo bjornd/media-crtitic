@@ -7,7 +7,6 @@ Ext.define('MC.view.Main', {
     ],
     config: {
         id: 'mainView',
-        scrollable: true,
         layout: 'card',
         items: [{
             docked: 'top',
