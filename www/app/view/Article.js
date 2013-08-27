@@ -57,9 +57,9 @@ Ext.define('MC.view.Article', {
                             }
                         },
                         getUserScrorePointsClass: function(score){
-                            if (score >= 8) {
+                            if (score >= 7.5) {
                                 return 'x-artice-score-points-favorable';
-                            } else if (score >= 6) {
+                            } else if (score >= 5) {
                                 return 'x-artice-score-points-mixed';
                             } else {
                                 return 'x-artice-score-points-unfavorable';
