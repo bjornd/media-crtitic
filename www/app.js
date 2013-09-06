@@ -23,7 +23,7 @@ Ext.application({
     name: 'MC',
 
     requires: [
-
+        'MC.override.Format'
     ],
 
     views: [
@@ -53,7 +53,12 @@ Ext.application({
     ],
 
     models: [
-        'MC.model.Article'
+        'Article',
+        'SearchResult'
+    ],
+
+    stores: [
+        'SearchResults'
     ],
 
     launch: function() {

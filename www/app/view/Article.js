@@ -8,6 +8,16 @@ Ext.define('MC.view.Article', {
         padding: 10,
         scrollable: true,
         items: [{
+            xtype: 'titlebar',
+            title: 'Media Critic',
+            docked: 'top',
+            items: [{
+                xtype: 'button',
+                text: 'Search',
+                ui: 'back',
+                itemId: 'back'
+            }]
+        },{
             xtype: 'container',
             layout: 'hbox',
             items: [{
@@ -20,7 +30,7 @@ Ext.define('MC.view.Article', {
                 itemId: 'articleAttributes',
                 tpl: new Ext.XTemplate(
                     '<div class="x-artice-score">',
-                        '<div class="x-artice-score-points {[ this.getScrorePointsClass(values.score) ]}">',
+                        '<div class="x-artice-score-points { score:scorePointsClass }">',
                             '<div class="x-artice-score-points-value">{score}</div>',
                             '<div class="x-artice-score-points-max">out of 100</div>',
                         '</div>',
@@ -30,7 +40,7 @@ Ext.define('MC.view.Article', {
                         '</div>',
                     '</div>',
                     '<div class="x-artice-score">',
-                        '<div class="x-artice-score-points {[ this.getUserScrorePointsClass(values.user_score) ]}">',
+                        '<div class="x-artice-score-points { user_score:userScorePointsClass }">',
                             '<div class="x-artice-score-points-value">{user_score}</div>',
                             '<div class="x-artice-score-points-max">out of 10</div>',
                         '</div>',
@@ -45,27 +55,7 @@ Ext.define('MC.view.Article', {
                         '<li>Released on <b>{release_date}</b> by <b>{publisher}</b></li>',
                         '<li>Rating: <b>{maturity_rating}</b></li>',
                     '</ul>',
-                    '<a href="http://www.metacritic.com{metacritic_url}" target="_blank">More info on metacritic.com</a>',
-                    {
-                        getScrorePointsClass: function(score){
-                            if (score >= 75) {
-                                return 'x-artice-score-points-favorable';
-                            } else if (score >= 50) {
-                                return 'x-artice-score-points-mixed';
-                            } else {
-                                return 'x-artice-score-points-unfavorable';
-                            }
-                        },
-                        getUserScrorePointsClass: function(score){
-                            if (score >= 7.5) {
-                                return 'x-artice-score-points-favorable';
-                            } else if (score >= 5) {
-                                return 'x-artice-score-points-mixed';
-                            } else {
-                                return 'x-artice-score-points-unfavorable';
-                            }
-                        }
-                    }
+                    '<a href="http://www.metacritic.com{metacritic_url}" target="_blank">More info on metacritic.com</a>'
                 ),
                 flex: 1
             }],

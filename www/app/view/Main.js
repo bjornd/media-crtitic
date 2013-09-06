@@ -3,22 +3,45 @@ Ext.define('MC.view.Main', {
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'MC.view.Article'
+        'Ext.Toolbar',
+        'MC.view.Article',
+        'Ext.field.Search',
+        'Ext.dataview.DataView'
     ],
     config: {
         id: 'mainView',
         layout: 'card',
         items: [{
-            docked: 'top',
-            xtype: 'titlebar',
-            title: 'Media Critic'
-        },{
-            itemId: 'scan',
-            padding: 10,
+            itemId: 'search',
+            layout: 'fit',
             items: [{
-                xtype: 'button',
-                itemId: 'scanButton',
-                text: 'Scan'
+                xtype: 'titlebar',
+                title: 'Media Critic',
+                docked: 'top'
+            },{
+                xtype: 'toolbar',
+                itemId: 'searchToolbar',
+                docked: 'top',
+                ui: 'light',
+                items: [{
+                    xtype: 'searchfield',
+                    placeHolder: 'Search',
+                    itemId: 'searchField',
+                    flex: 1
+                },{
+                    xtype: 'button',
+                    itemId: 'scanButton',
+                    text: 'Scan barcode',
+                    iconCls: 'camera',
+                    iconAlign: 'left',
+                    ui: 'action'
+                }]
+            },{
+                xtype: 'dataview',
+                itemId: 'searchResults',
+                padding: 10,
+                store: 'SearchResults',
+                itemTpl: '<div>{title}</div>'
             }]
         }, {
             itemId: 'article',
