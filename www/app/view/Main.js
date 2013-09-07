@@ -39,9 +39,18 @@ Ext.define('MC.view.Main', {
             },{
                 xtype: 'dataview',
                 itemId: 'searchResults',
-                padding: 10,
                 store: 'SearchResults',
-                itemTpl: '<div>{title}</div>'
+                itemCls: 'x-search-item',
+                itemTpl: new Ext.XTemplate(
+                    '<div class="x-search-item-score { score:scorePointsClass }">{score}</div>',
+                    '<div class="x-search-item-info">',
+                        '<h3>{title}</h3>',
+                        '<ul>',
+                            '<li>For <b>{platform}</b></li>',
+                            '<li>Released on <b>{release_date}</b> by <b>{publisher}</b></li>',
+                        '</ul>',
+                    '</div>'
+                )
             }]
         }, {
             itemId: 'article',

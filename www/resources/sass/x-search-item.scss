@@ -1,0 +1,24 @@
+.x-search-item {
+    font-size: 16px;
+    border-top: 1px solid #dedede;
+    padding: 7px 10px;
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+    .x-search-item-score {
+        margin-top: 3px;
+        float: left;
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .x-search-item-info {
+        margin-left: 56px;
+    }

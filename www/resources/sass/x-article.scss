@@ -1,0 +1,52 @@
+.x-article {
+    font-size: 16px;
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 3px 0 1px 0;
+    }
+    a {
+        color: #1676b9;
+    }
+    li {
+        margin-bottom: 2px;
+    }
+    img {
+        display: block;
+    }
+}
+    .x-artice-score {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+        .x-artice-score-points {
+            display: inline-block;
+            color: white;
+            width: 58px;
+            padding: 3px 5px 7px 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+            .x-artice-score-points-value {
+                font-size: 30px;
+            }
+
+            .x-artice-score-points-max {
+                font-size: 10px;
+            }
+
+        .x-artice-score-info {
+            display: inline-block;
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+            .x-artice-score-info-title {
+                font-weight: bold;
+            }
+
+            .x-artice-score-info-reviews {
+                font-size: 14px;
+            }
