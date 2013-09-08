@@ -1,7 +1,6 @@
-Ext.define('MC.model.Article', {
+Ext.define('MC.model.AbstractArticle', {
     extend: 'Ext.data.Model',
     config: {
-        idProperty: 'amazon_id',
         fields: [
             {
                 name: 'score',
@@ -25,11 +24,6 @@ Ext.define('MC.model.Article', {
             'critic_reviews_total',
             'user_reviews',
             'user_reviews_total'
-        ],
-        proxy: {
-            type: 'rest',
-            url : 'http://192.168.0.13/api/lookup/',
-            noCache: false
-        }
+        ]
     }
 });

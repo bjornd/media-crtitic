@@ -72,28 +72,11 @@ Ext.define('MC.view.Article', {
             iconCls: 'arrow_right',
             iconAlign: 'right',
             margin: '0 0 10 0'
-        },{
-            xtype: 'container',
-            itemId: 'articleOffers',
-            layout: 'hbox'
         }]
     },
 
     setData: function(data){
-        var i;
-
         this.down('#articleAttributes').setData(data);
         this.down('#articleImage').setData(data);
-
-        this.down('#articleOffers').removeAll();
-        for (i = 0; i < data.offers.length; i++) {
-            this.down('#articleOffers').add(
-                Ext.create('Ext.Button', {
-                    text: 'Buy at '+data.offers[i].name+' for '+data.offers[i].price,
-                    flex: 1,
-                    margin: i === 0 ? 0 : '0 0 0 10'
-                })
-            );
-        }
     }
 });

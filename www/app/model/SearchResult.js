@@ -6,7 +6,8 @@ Ext.define('MC.model.SearchResult', {
             'score',
             'platform',
             'release_date',
-            'publisher'
+            'publisher',
+            'url'
         ],
         proxy: {
             type: 'rest',

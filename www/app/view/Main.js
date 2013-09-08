@@ -42,7 +42,7 @@ Ext.define('MC.view.Main', {
                 store: 'SearchResults',
                 itemCls: 'x-search-item',
                 itemTpl: new Ext.XTemplate(
-                    '<div class="x-search-item-score { score:scorePointsClass }">{score}</div>',
+                    '<tpl if="score"><div class="x-search-item-score { score:scorePointsClass }">{score}</div></tpl>',
                     '<div class="x-search-item-info">',
                         '<h3>{title}</h3>',
                         '<ul>',

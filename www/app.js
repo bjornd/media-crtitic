@@ -53,7 +53,8 @@ Ext.application({
     ],
 
     models: [
-        'Article',
+        'ArticleById',
+        'ArticleByUrl',
         'SearchResult'
     ],
 
