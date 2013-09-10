@@ -4,9 +4,8 @@ Ext.define('MC.view.Article', {
         'Ext.Img'
     ],
     config: {
-        cls: 'x-article',
-        padding: 10,
         scrollable: true,
+        padding: '0 0 10 0',
         items: [{
             xtype: 'titlebar',
             title: 'Media Critic',
@@ -20,6 +19,7 @@ Ext.define('MC.view.Article', {
         },{
             xtype: 'container',
             layout: 'hbox',
+            padding: '10 10 0 10',
             items: [{
                 itemId: 'articleImage',
                 padding: '0 10 0 0',
@@ -28,27 +28,32 @@ Ext.define('MC.view.Article', {
                 )
             },{
                 itemId: 'articleAttributes',
+                cls: 'x-article',
                 tpl: new Ext.XTemplate(
-                    '<div class="x-artice-score">',
-                        '<div class="x-artice-score-points { score:scorePointsClass }">',
-                            '<div class="x-artice-score-points-value">{score}</div>',
-                            '<div class="x-artice-score-points-max">out of 100</div>',
+                    '<tpl if="score">',
+                        '<div class="x-artice-score">',
+                            '<div class="x-artice-score-points { score:scorePointsClass }">',
+                                '<div class="x-artice-score-points-value">{score}</div>',
+                                '<div class="x-artice-score-points-max">out of 100</div>',
+                            '</div>',
+                            '<div class="x-artice-score-info">',
+                                '<div class="x-artice-score-info-title">Metascore</div>',
+                                '<div class="x-artice-score-info-reviews">{critic_reviews_total} reviews</div>',
+                            '</div>',
                         '</div>',
-                        '<div class="x-artice-score-info">',
-                            '<div class="x-artice-score-info-title">Metascore</div>',
-                            '<div class="x-artice-score-info-reviews">based on {critic_reviews_total} reviews</div>',
+                    '</tpl>',
+                    '<tpl if="user_score">',
+                        '<div class="x-artice-score">',
+                            '<div class="x-artice-score-points { user_score:userScorePointsClass }">',
+                                '<div class="x-artice-score-points-value">{user_score}</div>',
+                                '<div class="x-artice-score-points-max">out of 10</div>',
+                            '</div>',
+                            '<div class="x-artice-score-info">',
+                                '<div class="x-artice-score-info-title">User score</div>',
+                                '<div class="x-artice-score-info-reviews">{user_reviews_total} reviews</div>',
+                            '</div>',
                         '</div>',
-                    '</div>',
-                    '<div class="x-artice-score">',
-                        '<div class="x-artice-score-points { user_score:userScorePointsClass }">',
-                            '<div class="x-artice-score-points-value">{user_score}</div>',
-                            '<div class="x-artice-score-points-max">out of 10</div>',
-                        '</div>',
-                        '<div class="x-artice-score-info">',
-                            '<div class="x-artice-score-info-title">User score</div>',
-                            '<div class="x-artice-score-info-reviews">based on {user_reviews_total} reviews</div>',
-                        '</div>',
-                    '</div>',
+                    '</tpl>',
                     '<h3>{title} <small></small></h3>',
                     '<ul>',
                         '<li>For <b>{platform}</b></li>',
@@ -58,24 +63,30 @@ Ext.define('MC.view.Article', {
                     '<a href="http://www.metacritic.com{metacritic_url}" target="_blank">More info on metacritic.com</a>'
                 ),
                 flex: 1
-            }],
-            padding: '0 0 10 0'
+            }]
         },{
-            xtype: 'button',
-            text: 'Show critic reviews',
-            iconCls: 'arrow_right',
-            iconAlign: 'right',
-            margin: '0 0 10 0'
-        },{
-            xtype: 'button',
-            text: 'Show user reviews',
-            iconCls: 'arrow_right',
-            iconAlign: 'right',
-            margin: '0 0 10 0'
+            xtype: 'list',
+            itemId: 'articleNavigationList',
+            ui: 'round',
+            itemCls: 'x-list-item-article',
+            height: 204,
+            scrollable: false,
+            disableSelection: true,
+            store: {
+                fields: ['name', 'type'],
+                data: [
+                    {name: 'Read critic reviews', type: 'criticReviews'},
+                    {name: 'Read user reviews', type: 'userReviews'},
+                    {name: 'Offers from Amazon', type: 'amazonReviews'},
+                    {name: 'Offers from eBay', type: 'ebayReviews'}
+                ]
+            },
+            itemTpl: '{name}'
         }]
     },
 
     setData: function(data){
+        this.data = data;
         this.down('#articleAttributes').setData(data);
         this.down('#articleImage').setData(data);
     }
