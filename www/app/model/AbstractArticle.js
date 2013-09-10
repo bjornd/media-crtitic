@@ -2,6 +2,7 @@ Ext.define('MC.model.AbstractArticle', {
     extend: 'Ext.data.Model',
     config: {
         fields: [
+            'id',
             {
                 name: 'score',
                 type: 'int'

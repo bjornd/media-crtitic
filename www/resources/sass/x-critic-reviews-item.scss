@@ -1,0 +1,27 @@
+.x-critic-reviews-item {
+    font-size: 16px;
+    border-top: 1px solid #dedede;
+    padding: 10px;
+    .x-critic-reviews-item-score {
+        float: left;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 10px 5px 0;
+    }
+    h4 {
+        font-weight: bold;
+    }
+    .x-critic-reviews-item-date {
+        font-style: italic;
+        margin-top: 3px;
+    }
+    p {
+        margin-bottom: 3px;
+    }
+    a {
+        color: #1676b9;
+        font-size: 14px;
+    }
+}

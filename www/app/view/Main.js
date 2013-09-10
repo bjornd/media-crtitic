@@ -6,7 +6,8 @@ Ext.define('MC.view.Main', {
         'Ext.Toolbar',
         'MC.view.Article',
         'Ext.field.Search',
-        'Ext.dataview.DataView'
+        'Ext.dataview.DataView',
+        'Ext.dataview.List'
     ],
     config: {
         id: 'mainView',
@@ -53,8 +54,35 @@ Ext.define('MC.view.Main', {
                 )
             }]
         }, {
+            xclass: 'MC.view.Article',
             itemId: 'article',
-            xclass: 'MC.view.Article'
+        },{
+            xtype: 'container',
+            itemId: 'criticReviews',
+            layout: 'fit',
+            items: [{
+                xtype: 'titlebar',
+                title: 'Critic Reviews',
+                docked: 'top',
+                items: [{
+                    xtype: 'button',
+                    text: 'Back',
+                    ui: 'back',
+                    itemId: 'back'
+                }]
+            },{
+                xtype: 'dataview',
+                store: 'CriticReviews',
+                itemCls: 'x-critic-reviews-item',
+                itemTpl: new Ext.XTemplate(
+                    '<div class="x-critic-reviews-item-score { score:scorePointsClass }">{score}</div>',
+                    '<h4>{name}</h4>',
+                    '<div class="x-critic-reviews-item-date">{date}</div>',
+                    '<div style="clear: both"></div>',
+                    '<p>{content}</p>',
+                    '<a href="{link}" target="_blank">Read full review</a>'
+                )
+            }]
         }]
     }
 });

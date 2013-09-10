@@ -9,11 +9,27 @@ Ext.define('MC.controller.Main', {
             '#mainView #searchField': {
                 change: 'onSearchFieldChange'
             },
+            '#mainView #searchResults': {
+                itemtap: 'onSearchItemTap'
+            },
+
             '#mainView #article #back': {
                 tap: 'onArticleBackButtonTap'
             },
-            '#mainView #searchResults': {
-                itemtap: 'onSearchItemTap'
+            '#mainView #articleNavigationList': {
+                itemtap: 'onArticleNavItemTap'
+            },
+            '#mainView #criticReviews #back': {
+                tap: 'onBackToArticleTap'
+            },
+            '#mainView #userReviews #back': {
+                tap: 'onBackToArticleTap'
+            },
+            '#mainView #amazonOffers #back': {
+                tap: 'onBackToArticleTap'
+            },
+            '#mainView #ebayOffers #back': {
+                tap: 'onBackToArticleTap'
             }
         }
     },
@@ -58,7 +74,7 @@ Ext.define('MC.controller.Main', {
                         Ext.getCmp('mainView').down('#searchToolbar').enable();
                         Ext.getCmp('mainView').child('#search').setMasked(false);
                         Ext.getCmp('mainView').animateActiveItem('#article', {type: 'slide', direction: 'left'});
-                        Ext.getCmp('mainView').child('#article').setData( article.data );
+                        Ext.getCmp('mainView').down('#article').setData( article.data );
                     }
                 });
             }
@@ -83,8 +99,20 @@ Ext.define('MC.controller.Main', {
         MC.model.ArticleByUrl.load(record.get('url'), {
             success: function(article){
                 Ext.getCmp('mainView').animateActiveItem('#article', {type: 'slide', direction: 'left'});
-                Ext.getCmp('mainView').child('#article').setData( article.data );
+                Ext.getCmp('mainView').down('#article').setData( article.data );
             }
         });
+    },
+
+    onArticleNavItemTap: function(listview, index, target, record){
+        var list = Ext.getCmp('mainView').down('#'+record.get('type')),
+            article = Ext.getCmp('mainView').down('#article');
+
+        Ext.getCmp('mainView').animateActiveItem(list, {type: 'slide', direction: 'left'});
+        list.down('dataview').getStore().load({params: {game_id: article.data.id}});
+    },
+
+    onBackToArticleTap: function(){
+        Ext.getCmp('mainView').animateActiveItem('#article', {type: 'slide', direction: 'right'});
     }
 });
