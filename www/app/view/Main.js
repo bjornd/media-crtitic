@@ -83,6 +83,31 @@ Ext.define('MC.view.Main', {
                     '<a href="{link}" target="_blank">Read full review</a>'
                 )
             }]
+        },{
+            xtype: 'container',
+            itemId: 'userReviews',
+            layout: 'fit',
+            items: [{
+                xtype: 'titlebar',
+                title: 'User Reviews',
+                docked: 'top',
+                items: [{
+                    xtype: 'button',
+                    text: 'Back',
+                    ui: 'back',
+                    itemId: 'back'
+                }]
+            },{
+                xtype: 'dataview',
+                store: 'UserReviews',
+                itemCls: 'x-user-reviews-item',
+                itemTpl: new Ext.XTemplate(
+                    '<div class="x-user-reviews-item-score { score:userScorePointsClass }">{score}</div>',
+                    '<h4>{name}</h4>',
+                    '<div style="clear: both"></div>',
+                    '<p>{content}</p>'
+                )
+            }]
         }]
     }
 });

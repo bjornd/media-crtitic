@@ -57,12 +57,14 @@ Ext.application({
         'ArticleById',
         'ArticleByUrl',
         'CriticReview',
+        'UserReview',
         'SearchResult'
     ],
 
     stores: [
         'SearchResults',
-        'CriticReviews'
+        'CriticReviews',
+        'UserReviews'
     ],
 
     launch: function() {

@@ -12,7 +12,7 @@ Ext.define('MC.override.Format', {
             }
         },
         userScorePointsClass: function(score){
-            if (score >= 7.5) {
+            if (score >= 7) {
                 return 'x-score-favorable';
             } else if (score >= 5) {
                 return 'x-score-mixed';
