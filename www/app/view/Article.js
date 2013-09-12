@@ -77,8 +77,8 @@ Ext.define('MC.view.Article', {
                 data: [
                     {name: 'Read critic reviews', type: 'criticReviews'},
                     {name: 'Read user reviews', type: 'userReviews'},
-                    {name: 'Offers from Amazon', type: 'amazonReviews'},
-                    {name: 'Offers from eBay', type: 'ebayReviews'}
+                    {name: 'Offers from Amazon', type: 'amazonOffers'},
+                    {name: 'Offers from eBay', type: 'ebayOffers'}
                 ]
             },
             itemTpl: '{name}'

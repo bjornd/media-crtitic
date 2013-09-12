@@ -58,13 +58,17 @@ Ext.application({
         'ArticleByUrl',
         'CriticReview',
         'UserReview',
-        'SearchResult'
+        'SearchResult',
+        'AmazonOffer',
+        'EbayOffer'
     ],
 
     stores: [
         'SearchResults',
         'CriticReviews',
-        'UserReviews'
+        'UserReviews',
+        'AmazonOffers',
+        'EbayOffers'
     ],
 
     launch: function() {

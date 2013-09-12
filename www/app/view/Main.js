@@ -108,6 +108,64 @@ Ext.define('MC.view.Main', {
                     '<p>{content}</p>'
                 )
             }]
+        },{
+            xtype: 'container',
+            itemId: 'amazonOffers',
+            layout: 'fit',
+            items: [{
+                xtype: 'titlebar',
+                title: 'Amazon Offers',
+                docked: 'top',
+                items: [{
+                    xtype: 'button',
+                    text: 'Back',
+                    ui: 'back',
+                    itemId: 'back'
+                }]
+            },{
+                xtype: 'dataview',
+                store: 'AmazonOffers',
+                itemCls: 'x-amazon-offers-item',
+                itemTpl: new Ext.XTemplate(
+                    '<img src="{image_url}" width="{image_width}" height="{image_height}"/>',
+                    '<div><b>{price}</b><tpl if="saved"> (you save {saved})</tpl></div>',
+                    '<div>Condition: {condition}</div>',
+                    '<div>{total_new} offers from {lowest_new_price}</div>',
+                    '<div>{total_used} offers from {lowest_used_price}</div>',
+                    '<div><a href="{url}">Buy on Amazon</a></div>'
+                )
+            }]
+        },{
+            xtype: 'container',
+            itemId: 'ebayOffers',
+            layout: 'fit',
+            items: [{
+                xtype: 'titlebar',
+                title: 'eBay Offers',
+                docked: 'top',
+                items: [{
+                    xtype: 'button',
+                    text: 'Back',
+                    ui: 'back',
+                    itemId: 'back'
+                }]
+            },{
+                xtype: 'dataview',
+                store: 'EbayOffers',
+                itemCls: 'x-ebay-offers-item',
+                itemTpl: new Ext.XTemplate(
+                    '<img src="{image_url}"/>',
+                    '<h3>{title}</h3>',
+                    '<tpl if="type == \'auction\'">',
+                        '<div><b>{price}</b> {bid_count} bids, {end_time} left</div>',
+                        '<div><a href="{url}">Bid on eBay</a></div>',
+                    '</tpl>',
+                    '<tpl if="type == \'buyitnow\'">',
+                        '<div><b>{price}</b></div>',
+                        '<div><a href="{url}">Buy on eBay</a></div>',
+                    '</tpl>'
+                )
+            }]
         }]
     }
 });
