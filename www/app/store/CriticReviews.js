@@ -1,5 +1,5 @@
 Ext.define('MC.store.CriticReviews', {
-    extend: 'Ext.data.Store',
+    extend: 'MC.store.AbstractStore',
     config: {
         model: 'MC.model.CriticReview',
         proxy: {

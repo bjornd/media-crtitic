@@ -1,5 +1,5 @@
 Ext.define('MC.store.EbayOffers', {
-    extend: 'Ext.data.Store',
+    extend: 'MC.store.AbstractStore',
     config: {
         model: 'MC.model.EbayOffer',
         proxy: {

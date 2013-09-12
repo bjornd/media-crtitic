@@ -130,8 +130,8 @@ Ext.define('MC.view.Main', {
                     '<img src="{image_url}" width="{image_width}" height="{image_height}"/>',
                     '<div><b>{price}</b><tpl if="saved"> (you save {saved})</tpl></div>',
                     '<div>Condition: {condition}</div>',
-                    '<div>{total_new} offers from {lowest_new_price}</div>',
-                    '<div>{total_used} offers from {lowest_used_price}</div>',
+                    '<div>{total_new} new from {lowest_new_price}</div>',
+                    '<div>{total_used} used from {lowest_used_price}</div>',
                     '<div><a href="{url}">Buy on Amazon</a></div>'
                 )
             }]
@@ -154,7 +154,7 @@ Ext.define('MC.view.Main', {
                 store: 'EbayOffers',
                 itemCls: 'x-ebay-offers-item',
                 itemTpl: new Ext.XTemplate(
-                    '<img src="{image_url}"/>',
+                    '<img src="{image_url}" height="80"/>',
                     '<h3>{title}</h3>',
                     '<tpl if="type == \'auction\'">',
                         '<div><b>{price}</b> {bid_count} bids, {end_time} left</div>',
