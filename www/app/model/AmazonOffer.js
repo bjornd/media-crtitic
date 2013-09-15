@@ -2,10 +2,15 @@ Ext.define('MC.model.AmazonOffer', {
     extend: 'Ext.data.Model',
     config: {
         fields: [
+            'title',
             'url',
-            'image_url',
-            'image_width',
-            'image_height',
+            'image_url', {
+                type: 'int',
+                name: 'image_width'
+            },{
+                type: 'int',
+                name: 'image_height'
+            },
             'price',
             'saved',
             'condition',

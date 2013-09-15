@@ -9,6 +9,7 @@ Ext.define('MC.model.EbayOffer', {
             'end_time',
             'url',
             'image_url',
+            'time_left',
             'price'
         ]
     }

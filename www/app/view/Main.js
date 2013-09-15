@@ -128,11 +128,18 @@ Ext.define('MC.view.Main', {
                 itemCls: 'x-amazon-offers-item',
                 itemTpl: new Ext.XTemplate(
                     '<img src="{image_url}" width="{image_width}" height="{image_height}"/>',
-                    '<div><b>{price}</b><tpl if="saved"> (you save {saved})</tpl></div>',
-                    '<div>Condition: {condition}</div>',
-                    '<div>{total_new} new from {lowest_new_price}</div>',
-                    '<div>{total_used} used from {lowest_used_price}</div>',
-                    '<div><a href="{url}">Buy on Amazon</a></div>'
+                    '<div class="x-amazon-offers-item-info" style="margin-left: {image_width+10}px">',
+                        '<h3>{title}</h3>',
+                        '<div class="x-amazon-offers-item-price"><span>{price}</span><tpl if="saved"> (you save {saved})</tpl></div>',
+                        '<div>',
+                            'More offers:',
+                            '<ul>',
+                                '<li><i>{total_new}</i> new from <b>{lowest_new_price}</b></li>',
+                                '<li><i>{total_used}</i> used from <b>{lowest_used_price}</b></li>',
+                            '</ul>',
+                        '</div>',
+                        '<div><a href="{url}">Buy on Amazon</a></div>',
+                    '</div>'
                 )
             }]
         },{
@@ -151,19 +158,22 @@ Ext.define('MC.view.Main', {
                 }]
             },{
                 xtype: 'dataview',
+                scrollable: 'vertical',
                 store: 'EbayOffers',
+                cls: 'x-ebay-offers',
                 itemCls: 'x-ebay-offers-item',
                 itemTpl: new Ext.XTemplate(
-                    '<img src="{image_url}" height="80"/>',
+                    '<div class="x-ebay-offers-item-img" style="background: url({image_url}) center no-repeat"></div>',
                     '<h3>{title}</h3>',
                     '<tpl if="type == \'auction\'">',
-                        '<div><b>{price}</b> {bid_count} bids, {end_time} left</div>',
+                        '<div><b>{price}</b> ({bid_count} bids, {time_left:timePeriod} left)</div>',
                         '<div><a href="{url}">Bid on eBay</a></div>',
                     '</tpl>',
                     '<tpl if="type == \'buyitnow\'">',
                         '<div><b>{price}</b></div>',
                         '<div><a href="{url}">Buy on eBay</a></div>',
-                    '</tpl>'
+                    '</tpl>',
+                    '<div style="clear: both"></div>'
                 )
             }]
         }]

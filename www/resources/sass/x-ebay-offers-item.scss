@@ -1,0 +1,24 @@
+.x-ebay-offers .x-scroll-scroller {
+    width: 100% !important;
+}
+
+.x-ebay-offers-item {
+    padding: 10px;
+    border-top: 1px solid #dedede;
+    .x-ebay-offers-item-img {
+        float: left;
+        height: 80px;
+        width: 80px;
+        margin-right: 10px;
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    a {
+        color: #1676b9;
+    }
+}
