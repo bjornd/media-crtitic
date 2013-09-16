@@ -40,7 +40,7 @@ Ext.define('MC.controller.Main', {
 
             if (e.target.tagName === 'A') {
                 e.preventDefault();
-                window.open(e.target.getAttribute('href'), '_system', 'location=yes');
+                navigator.app.loadUrl(e.target.getAttribute('href'), { openExternal:true });
             };
         })
     },
