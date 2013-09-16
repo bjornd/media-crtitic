@@ -3,7 +3,7 @@ Ext.define('MC.model.ArticleById', {
     config: {
         proxy: {
             type: 'rest',
-            url : 'http://192.168.0.13/api/lookup/',
+            url : '/api/lookup/',
             noCache: false
         }
     }

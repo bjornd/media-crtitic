@@ -4,7 +4,7 @@ Ext.define('MC.store.EbayOffers', {
         model: 'MC.model.EbayOffer',
         proxy: {
             type: 'rest',
-            url : 'http://192.168.0.13/api/games/:game_id/offers/ebay',
+            url : '/api/games/:game_id/offers/ebay',
             noCache: false,
             enablePagingParams: false
         }

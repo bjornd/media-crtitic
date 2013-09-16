@@ -17,6 +17,7 @@
 Ext.Loader.setPath({
     'Ext': 'touch/src'
 });
+window.debugMode = true;
 //</debug>
 
 Ext.application({
@@ -24,7 +25,8 @@ Ext.application({
 
     requires: [
         'MC.override.Format',
-        'MC.override.LayoutFloat'
+        'MC.override.LayoutFloat',
+        'MC.override.AjaxProxy'
     ],
 
     views: [

@@ -11,7 +11,7 @@ Ext.define('MC.model.SearchResult', {
         ],
         proxy: {
             type: 'rest',
-            url : 'http://192.168.0.13/api/search/',
+            url : '/api/search/',
             noCache: false
         }
     }

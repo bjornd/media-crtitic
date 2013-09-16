@@ -9,7 +9,7 @@ Ext.define('MC.model.ArticleByUrl', {
     },
     statics: {
         load: function(urlPart, config, scope){
-            this.getProxy().setUrl('http://192.168.0.13/api/retrieve/' + '?url=' + urlPart);
+            this.getProxy().setUrl('/api/retrieve/' + '?url=' + urlPart);
             MC.model.AbstractArticle.load.apply(MC.model.ArticleByUrl, arguments);
         }
     }

@@ -4,7 +4,7 @@ Ext.define('MC.store.UserReviews', {
         model: 'MC.model.UserReview',
         proxy: {
             type: 'rest',
-            url : 'http://192.168.0.13/api/games/:game_id/reviews/user',
+            url : '/api/games/:game_id/reviews/user',
             noCache: false,
             enablePagingParams: false
         }
