@@ -3,7 +3,7 @@ Ext.define('MC.store.CriticReviews', {
     config: {
         model: 'MC.model.CriticReview',
         proxy: {
-            type: 'rest',
+            type: 'mc_rest',
             url : '/api/games/:game_id/reviews/critic',
             noCache: false,
             enablePagingParams: false

@@ -4,7 +4,11 @@ Ext.define('MC.model.ArticleByUrl', {
         proxy: {
             type: 'ajax',
             url: '/',
-            noCache: false
+            noCache: false,
+            reader: {
+                type: 'json',
+                rootProperty: 'data'
+            }
         }
     },
     statics: {

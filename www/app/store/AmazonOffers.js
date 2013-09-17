@@ -3,7 +3,7 @@ Ext.define('MC.store.AmazonOffers', {
     config: {
         model: 'MC.model.AmazonOffer',
         proxy: {
-            type: 'rest',
+            type: 'mc_rest',
             url : '/api/games/:game_id/offers/amazon',
             noCache: false,
             enablePagingParams: false

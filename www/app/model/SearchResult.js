@@ -1,5 +1,6 @@
 Ext.define('MC.model.SearchResult', {
     extend: 'Ext.data.Model',
+    requires: ['MC.RestProxy'],
     config: {
         fields: [
             'title',
@@ -10,7 +11,7 @@ Ext.define('MC.model.SearchResult', {
             'url'
         ],
         proxy: {
-            type: 'rest',
+            type: 'mc_rest',
             url : '/api/search/',
             noCache: false
         }

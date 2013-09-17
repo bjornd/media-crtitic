@@ -1,5 +1,6 @@
 Ext.define('MC.store.AbstractStore', {
     extend: 'Ext.data.Store',
+    requires: ['MC.RestProxy'],
     config: {
         listeners: {
             beforeload: function(store, operation){

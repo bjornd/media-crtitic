@@ -3,7 +3,7 @@ Ext.define('MC.store.UserReviews', {
     config: {
         model: 'MC.model.UserReview',
         proxy: {
-            type: 'rest',
+            type: 'mc_rest',
             url : '/api/games/:game_id/reviews/user',
             noCache: false,
             enablePagingParams: false
