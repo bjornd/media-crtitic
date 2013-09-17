@@ -24,7 +24,6 @@ Ext.application({
     name: 'MC',
 
     requires: [
-        'MC.RestProxy',
         'MC.override.Format',
         'MC.override.LayoutFloat',
         'MC.override.AjaxProxy'

@@ -12,9 +12,9 @@
 @import 'x-amazon-offers-item';
 @import 'x-ebay-offers-item';
 
-// Custom code goes here..
-
-// Examples of using the icon mixin:
-// @include icon('user');
+.x-dataview-emptytext .x-innerhtml {
+    text-align: center;
+    margin: 30px 0;
+}
 
 @include icon('camera');

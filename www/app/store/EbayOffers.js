@@ -3,7 +3,7 @@ Ext.define('MC.store.EbayOffers', {
     config: {
         model: 'MC.model.EbayOffer',
         proxy: {
-            type: 'mc_rest',
+            type: 'mc-rest',
             url : '/api/games/:game_id/offers/ebay',
             noCache: false,
             enablePagingParams: false

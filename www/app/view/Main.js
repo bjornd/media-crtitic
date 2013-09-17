@@ -6,7 +6,7 @@ Ext.define('MC.view.Main', {
         'Ext.Toolbar',
         'MC.view.Article',
         'Ext.field.Search',
-        'Ext.dataview.DataView',
+        'MC.DataView',
         'Ext.dataview.List'
     ],
     config: {
@@ -38,10 +38,11 @@ Ext.define('MC.view.Main', {
                     ui: 'action'
                 }]
             },{
-                xtype: 'dataview',
+                xclass: 'MC.DataView',
                 itemId: 'searchResults',
                 store: 'SearchResults',
                 itemCls: 'x-search-item',
+                emptyText: 'No results found your request',
                 itemTpl: new Ext.XTemplate(
                     '<tpl if="score"><div class="x-search-item-score { score:scorePointsClass }">{score}</div></tpl>',
                     '<div class="x-search-item-info">',

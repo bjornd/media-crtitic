@@ -7,7 +7,7 @@ Ext.define('MC.controller.Main', {
                 tap: 'onScanButtonTap'
             },
             '#mainView #searchField': {
-                change: 'onSearchFieldChange'
+                action: 'onSearchFieldAction'
             },
             '#mainView #searchResults': {
                 itemtap: 'onSearchItemTap'
@@ -87,7 +87,9 @@ Ext.define('MC.controller.Main', {
         Ext.getCmp('mainView').animateActiveItem('#search', {type: 'slide', direction: 'right'});
     },
 
-    onSearchFieldChange: function(field, value, oldValue){
+    onSearchFieldAction: function(field){
+        var value = field.getValue();
+
         if (value) {
             Ext.getCmp('mainView').down('#searchResults').getStore().load({params: {query: value}});
         } else {

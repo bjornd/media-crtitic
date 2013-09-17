@@ -3,7 +3,7 @@ Ext.define('MC.model.ArticleById', {
     requires: ['MC.RestProxy'],
     config: {
         proxy: {
-            type: 'mc_rest',
+            type: 'mc-rest',
             url : '/api/lookup/',
             noCache: false
         }
