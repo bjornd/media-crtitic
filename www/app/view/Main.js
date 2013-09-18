@@ -65,7 +65,6 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'criticReviews',
             layout: 'fit',
-            emptyText: 'No reviews found',
             items: [{
                 xtype: 'titlebar',
                 title: 'Critic Reviews',
@@ -77,8 +76,9 @@ Ext.define('MC.view.Main', {
                     itemId: 'back'
                 }]
             },{
-                xtype: 'dataview',
+                xclass: 'MC.DataView',
                 store: 'CriticReviews',
+                emptyText: 'No reviews found',
                 itemCls: 'x-critic-reviews-item',
                 itemTpl: new Ext.XTemplate(
                     '<div class="x-critic-reviews-item-score { score:scorePointsClass }">{score}</div>',
@@ -93,7 +93,6 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'userReviews',
             layout: 'fit',
-            emptyText: 'No reviews found',
             items: [{
                 xtype: 'titlebar',
                 title: 'User Reviews',
@@ -105,7 +104,8 @@ Ext.define('MC.view.Main', {
                     itemId: 'back'
                 }]
             },{
-                xtype: 'dataview',
+                xclass: 'MC.DataView',
+                emptyText: 'No reviews found',
                 store: 'UserReviews',
                 itemCls: 'x-user-reviews-item',
                 itemTpl: new Ext.XTemplate(
@@ -119,7 +119,6 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'amazonOffers',
             layout: 'fit',
-            emptyText: 'No offers found',
             items: [{
                 xtype: 'titlebar',
                 title: 'Amazon Offers',
@@ -131,9 +130,10 @@ Ext.define('MC.view.Main', {
                     itemId: 'back'
                 }]
             },{
-                xtype: 'dataview',
+                xclass: 'MC.DataView',
                 store: 'AmazonOffers',
                 itemCls: 'x-amazon-offers-item',
+                emptyText: 'No offers found',
                 itemTpl: new Ext.XTemplate(
                     '<img src="{image_url}" width="{image_width}" height="{image_height}"/>',
                     '<div class="x-amazon-offers-item-info" style="margin-left: {image_width+10}px">',
@@ -154,7 +154,6 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'ebayOffers',
             layout: 'fit',
-            emptyText: 'No offers found',
             items: [{
                 xtype: 'titlebar',
                 title: 'eBay Offers',
@@ -166,7 +165,8 @@ Ext.define('MC.view.Main', {
                     itemId: 'back'
                 }]
             },{
-                xtype: 'dataview',
+                xclass: 'MC.DataView',
+                emptyText: 'No offers found',
                 scrollable: 'vertical',
                 store: 'EbayOffers',
                 cls: 'x-ebay-offers',
