@@ -20,6 +20,7 @@ Ext.define('MC.view.Article', {
             xtype: 'container',
             layout: 'hbox',
             padding: '10 10 0 10',
+            itemId: 'articleInfo',
             items: [{
                 itemId: 'articleImage',
                 padding: '0 10 0 0',
@@ -87,7 +88,14 @@ Ext.define('MC.view.Article', {
 
     setData: function(data){
         this.data = data;
+        this.down('#articleInfo').show();
+        this.down('#articleNavigationList').show();
         this.down('#articleAttributes').setData(data);
         this.down('#articleImage').setData(data);
+    },
+
+    hideData: function(){
+        this.down('#articleInfo').hide();
+        this.down('#articleNavigationList').hide();
     }
 });

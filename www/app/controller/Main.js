@@ -125,6 +125,7 @@ Ext.define('MC.controller.Main', {
 
     onSearchItemTap: function(dataview, index, target, record){
         this.getView().animateActiveItem('#article', {type: 'slide', direction: 'left'});
+        this.getView().down('#article').hideData();
         this.getView().down('#article').setMasked({xtype: 'loadmask'});
         MC.model.ArticleByUrl.load(record.get('url'), {
             success: function(article){
