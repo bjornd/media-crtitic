@@ -65,6 +65,7 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'criticReviews',
             layout: 'fit',
+            emptyText: 'No reviews found',
             items: [{
                 xtype: 'titlebar',
                 title: 'Critic Reviews',
@@ -92,6 +93,7 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'userReviews',
             layout: 'fit',
+            emptyText: 'No reviews found',
             items: [{
                 xtype: 'titlebar',
                 title: 'User Reviews',
@@ -117,6 +119,7 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'amazonOffers',
             layout: 'fit',
+            emptyText: 'No offers found',
             items: [{
                 xtype: 'titlebar',
                 title: 'Amazon Offers',
@@ -151,6 +154,7 @@ Ext.define('MC.view.Main', {
             xtype: 'container',
             itemId: 'ebayOffers',
             layout: 'fit',
+            emptyText: 'No offers found',
             items: [{
                 xtype: 'titlebar',
                 title: 'eBay Offers',

@@ -140,10 +140,13 @@ Ext.define('MC.controller.Main', {
 
     onArticleNavItemTap: function(listview, index, target, record){
         var list = Ext.getCmp('mainView').down('#'+record.get('type')),
-            article = Ext.getCmp('mainView').down('#article');
+            article = Ext.getCmp('mainView').down('#article'),
+            dataview = list.down('dataview');
 
         Ext.getCmp('mainView').animateActiveItem(list, {type: 'slide', direction: 'left'});
-        list.down('dataview').getStore().load({params: {game_id: article.data.id}});
+        dataview.hasLoadedStore = false;
+        dataview.getStore().removeAll();
+        dataview.getStore().load({params: {game_id: article.data.id}});
     },
 
     onBackToArticleTap: function(){
