@@ -74,15 +74,20 @@ Ext.define('MC.view.Article', {
             scrollable: false,
             disableSelection: true,
             store: {
-                fields: ['name', 'type', 'visible'],
+                fields: ['name', 'type', 'visible', 'icon'],
                 data: [
-                    {name: 'Read critic reviews', type: 'criticReviews', visible: true},
-                    {name: 'Read user reviews', type: 'userReviews', visible: true},
-                    {name: 'Offers from Amazon', type: 'amazonOffers', visible: true},
-                    {name: 'Offers from eBay', type: 'ebayOffers', visible: true}
+                    {name: 'Read critic reviews', type: 'criticReviews', icon: 'compose', visible: true},
+                    {name: 'Read user reviews', type: 'userReviews', icon: 'user', visible: true},
+                    {name: 'Offers from Amazon', type: 'amazonOffers', icon: 'amazon', visible: true},
+                    {name: 'Offers from eBay', type: 'ebayOffers', icon: 'ebay', visible: true}
                 ]
             },
-            itemTpl: '{name}'
+            itemCls: 'x-article-navigation-item',
+            itemTpl:
+                '<span class="x-icon {icon}">'+
+                    '<span></span>'+
+                '</span>'+
+                '<span class="x-article-navigation-item-title">{name}</span>'
         }]
     },
 

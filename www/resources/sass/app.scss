@@ -18,4 +18,40 @@
     padding: 30px 0;
 }
 
+.x-article-navigation-item {
+    .x-innerhtml {
+        margin: auto;
+        width: 235px;
+    };
+
+    .x-article-navigation-item-title {
+        margin-left: 35px;
+    }
+
+    .x-icon {
+        position: absolute;
+        top: 10px;
+        vertical-align: middle;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .x-icon.compose {
+        @include inline-icon('compose');
+    }
+
+    .x-icon.user {
+        @include inline-icon('user');
+    }
+
+    .x-icon.amazon {
+        @include inline-icon('a', 'Providers');
+    }
+
+    .x-icon.ebay {
+        @include inline-icon('e', 'Providers');
+    }
+}
+
 @include icon('camera');
+@include icon-font('Providers', inline-font-files('providers/providers.woff', woff, 'providers/providers.ttf', truetype,'providers/providers.svg', svg));
