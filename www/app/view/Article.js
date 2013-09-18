@@ -74,12 +74,12 @@ Ext.define('MC.view.Article', {
             scrollable: false,
             disableSelection: true,
             store: {
-                fields: ['name', 'type'],
+                fields: ['name', 'type', 'visible'],
                 data: [
-                    {name: 'Read critic reviews', type: 'criticReviews'},
-                    {name: 'Read user reviews', type: 'userReviews'},
-                    {name: 'Offers from Amazon', type: 'amazonOffers'},
-                    {name: 'Offers from eBay', type: 'ebayOffers'}
+                    {name: 'Read critic reviews', type: 'criticReviews', visible: true},
+                    {name: 'Read user reviews', type: 'userReviews', visible: true},
+                    {name: 'Offers from Amazon', type: 'amazonOffers', visible: true},
+                    {name: 'Offers from eBay', type: 'ebayOffers', visible: true}
                 ]
             },
             itemTpl: '{name}'
@@ -87,9 +87,17 @@ Ext.define('MC.view.Article', {
     },
 
     setData: function(data){
+        var navListStore = this.down('#articleNavigationList').getStore();
+
         this.data = data;
+
         this.down('#articleInfo').show();
         this.down('#articleNavigationList').show();
+
+        navListStore.clearFilter();
+        navListStore.getAt(0).set('visible', data.critic_reviews_total > 0)
+        navListStore.getAt(1).set('visible', data.user_reviews_total > 0)
+        navListStore.filter('visible', true);
         this.down('#articleAttributes').setData(data);
         this.down('#articleImage').setData(data);
     },
