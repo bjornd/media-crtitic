@@ -14,7 +14,7 @@ Ext.define('MC.view.Main', {
         layout: 'card',
         items: [{
             itemId: 'search',
-            layout: 'fit',
+            layout: 'card',
             items: [{
                 xtype: 'titlebar',
                 title: 'Media Critic',
@@ -53,6 +53,10 @@ Ext.define('MC.view.Main', {
                         '</ul>',
                     '</div>'
                 )
+            },{
+                xtype: 'container',
+                itemId: 'lookupResults',
+                cls: 'x-panel-emptytext'
             }]
         }, {
             xclass: 'MC.view.Article',

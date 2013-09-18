@@ -2,12 +2,17 @@ Ext.define('MC.controller.Main', {
     extend: 'Ext.app.Controller',
 
     config: {
+        refs: {
+            view: '#mainView'
+        },
+
         control: {
             '#mainView #scanButton': {
                 tap: 'onScanButtonTap'
             },
             '#mainView #searchField': {
-                action: 'onSearchFieldAction'
+                action: 'onSearchFieldAction',
+                clearicontap: 'onSearchFieldClear'
             },
             '#mainView #searchResults': {
                 itemtap: 'onSearchItemTap'
@@ -45,6 +50,23 @@ Ext.define('MC.controller.Main', {
         })
     },
 
+    onSearchFieldAction: function(field){
+        var value = field.getValue();
+
+        this.getView().down('#search').setActiveItem('#searchResults');
+        if (value) {
+            this.getView().down('#searchResults').getStore().load({params: {query: value}});
+        } else {
+            this.getView().down('#searchResults').hasLoadedStore = false;
+            this.getView().down('#searchResults').getStore().removeAll();
+        }
+    },
+
+    onSearchFieldClear: function(){
+        this.getView().down('#searchResults').hasLoadedStore = false;
+        this.getView().down('#searchResults').getStore().removeAll();
+    },
+
     onScanButtonTap: function(){
         var scanner;
 
@@ -63,18 +85,31 @@ Ext.define('MC.controller.Main', {
         }
 
         scanner.scan(function (result) {
+            var mainView = Ext.getCmp('mainView');
+
             if (!result.cancelled) {
-                Ext.getCmp('mainView').down('#search').setMasked({
+                mainView.down('#search').setActiveItem('#lookupResults');
+                mainView.down('#lookupResults').setHtml('');
+                mainView.down('#lookupResults').setMasked({
                     xtype: 'loadmask',
                     message: 'Searching...'
                 });
-                Ext.getCmp('mainView').down('#searchToolbar').disable();
+                mainView.down('#searchToolbar').disable();
                 MC.model.ArticleById.load(result.text, {
                     success: function(article){
-                        Ext.getCmp('mainView').down('#searchToolbar').enable();
-                        Ext.getCmp('mainView').child('#search').setMasked(false);
-                        Ext.getCmp('mainView').animateActiveItem('#article', {type: 'slide', direction: 'left'});
-                        Ext.getCmp('mainView').down('#article').setData( article.data );
+                        mainView.animateActiveItem('#article', {type: 'slide', direction: 'left'});
+                        mainView.down('#article').setData( article.data );
+                    },
+                    failure: function(model, operation){
+                        if (operation.error.status === 404) {
+                            mainView.down('#lookupResults').setHtml('Sorry, can not find game with code <b>'+result.text+'</b>');
+                        } else {
+                            mainView.down('#lookupResults').setHtml('Error occurred during request');
+                        }
+                    },
+                    callback: function(){
+                        mainView.down('#searchToolbar').enable();
+                        mainView.down('#lookupResults').setMasked(false);
                     }
                 });
             }
@@ -84,17 +119,8 @@ Ext.define('MC.controller.Main', {
     },
 
     onArticleBackButtonTap: function(){
-        Ext.getCmp('mainView').animateActiveItem('#search', {type: 'slide', direction: 'right'});
-    },
-
-    onSearchFieldAction: function(field){
-        var value = field.getValue();
-
-        if (value) {
-            Ext.getCmp('mainView').down('#searchResults').getStore().load({params: {query: value}});
-        } else {
-            Ext.getCmp('mainView').down('#searchResults').getStore().removeAll();
-        }
+        this.getView().down('#search').setActiveItem('#searchResults');
+        this.getView().animateActiveItem('#search', {type: 'slide', direction: 'right'});
     },
 
     onSearchItemTap: function(dataview, index, target, record){
