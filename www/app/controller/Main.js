@@ -129,7 +129,7 @@ Ext.define('MC.controller.Main', {
         this.getView().down('#article').setMasked({xtype: 'loadmask'});
         MC.model.ArticleByUrl.load(record.get('url'), {
             success: function(article){
-                Ext.getCmp('mainView').down('#article').setData( article.data );
+                this.getView().down('#article').setData( article.data );
             },
             callback: function(){
                 this.getView().down('#article').setMasked(false);

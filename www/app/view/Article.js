@@ -96,6 +96,7 @@ Ext.define('MC.view.Article', {
 
         this.data = data;
 
+        this.getScrollable().getScroller().scrollTo(0, 0);
         this.down('#articleInfo').show();
         this.down('#articleNavigationList').show();
 
