@@ -12,6 +12,8 @@
 @import 'x-amazon-offers-item';
 @import 'x-ebay-offers-item';
 
+@include icon-font('Providers', inline-font-files('providers/providers.woff', woff, 'providers/providers.ttf', truetype,'providers/providers.svg', svg));
+
 .x-dataview-emptytext .x-innerhtml,
 .x-panel-emptytext .x-innerhtml {
     text-align: center;
@@ -54,4 +56,3 @@
 }
 
 @include icon('camera');
-@include icon-font('Providers', inline-font-files('providers/providers.woff', woff, 'providers/providers.ttf', truetype,'providers/providers.svg', svg));
