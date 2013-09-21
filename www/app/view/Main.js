@@ -17,7 +17,7 @@ Ext.define('MC.view.Main', {
             layout: 'card',
             items: [{
                 xtype: 'titlebar',
-                title: 'Media Critic',
+                title: 'Games Critic',
                 docked: 'top'
             },{
                 xtype: 'toolbar',

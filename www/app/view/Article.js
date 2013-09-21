@@ -8,7 +8,7 @@ Ext.define('MC.view.Article', {
         padding: '0 0 10 0',
         items: [{
             xtype: 'titlebar',
-            title: 'Media Critic',
+            title: 'Games Critic',
             docked: 'top',
             items: [{
                 xtype: 'button',
