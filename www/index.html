@@ -11,12 +11,35 @@
          */
         html, body {
             height: 100%;
-            background-color: #1985D0
+            background-color: #f9676e;
+        }
+
+        #wrapper {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (min-width: 1001px) {
+            #wrapper {
+                background: url('resources/loading/splash-1024.png') no-repeat center;
+            }
+        }
+
+        @media (min-width: 501px) and (max-width: 1000px) {
+            #wrapper {
+                background: url('resources/loading/splash-512.png') no-repeat center;
+            }
+        }
+
+        @media (max-width: 500px) {
+            #wrapper {
+                background: url('resources/loading/splash-256.png') no-repeat center;
+            }
         }
 
         #appLoadingIndicator {
             position: absolute;
-            top: 50%;
+            bottom: 10%;
             margin-top: -15px;
             text-align: center;
             width: 100%;
@@ -49,15 +72,17 @@
             }
         }
     </style>
-    <!-- The line below must be kept intact for Sencha Command to build your application -->
     <script type="text/javascript" src="cordova.js"></script>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
     <script id="microloader" type="text/javascript" src="touch/microloader/development.js"></script>
 </head>
 <body>
-    <div id="appLoadingIndicator">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div id="wrapper">
+        <div id="appLoadingIndicator">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 </body>
 </html>

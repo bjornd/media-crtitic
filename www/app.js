@@ -75,7 +75,7 @@ Ext.application({
 
     launch: function() {
         // Destroy the #appLoadingIndicator element
-        Ext.fly('appLoadingIndicator').destroy();
+        Ext.fly('wrapper').destroy();
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('MC.view.Main'));
