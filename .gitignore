@@ -1,7 +1,8 @@
-www/resources/sass/.sass-cache
-www/resources/css/*
+www-dev/resources/sass/.sass-cache
+www-dev/resources/css/*
 .DS_Store
 platforms
 media-critic.tmproj
-www/archive/
-www/build/
+www-dev/archive/
+www-dev/build/
+www
