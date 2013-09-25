@@ -3,3 +3,5 @@ www/resources/css/*
 .DS_Store
 platforms
 media-critic.tmproj
+www/archive/
+www/build/
