@@ -10,14 +10,7 @@
     will need to resolve manually.
 */
 
-// DO NOT DELETE - this directive is required for Sencha Cmd packages to work.
-//@require @packageOverrides
-
 //<debug>
-Ext.Loader.setConfig( {enabled: true, disableCaching: true} );
-Ext.Loader.setPath({
-    'Ext': 'touch/src'
-});
 window.debugMode = true;
 //</debug>
 
@@ -76,7 +69,7 @@ Ext.application({
 
     launch: function() {
         // Destroy the #appLoadingIndicator element
-        Ext.fly('wrapper').destroy();
+        Ext.fly('wrapper').destroy(true);
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('MC.view.Main'));

@@ -32,7 +32,7 @@ Ext.define('MC.view.Main', {
                 },{
                     xtype: 'button',
                     itemId: 'scanButton',
-                    text: 'Scan barcode',
+                    text: 'Barcode',
                     iconCls: 'camera',
                     iconAlign: 'left',
                     ui: 'action'

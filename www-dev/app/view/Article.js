@@ -76,8 +76,8 @@ Ext.define('MC.view.Article', {
             store: {
                 fields: ['name', 'type', 'visible', 'icon'],
                 data: [
-                    {name: 'Read critic reviews', type: 'criticReviews', icon: 'compose', visible: true},
-                    {name: 'Read user reviews', type: 'userReviews', icon: 'user', visible: true},
+                    {name: 'Critic reviews', type: 'criticReviews', icon: 'compose', visible: true},
+                    {name: 'User reviews', type: 'userReviews', icon: 'user', visible: true},
                     {name: 'Offers from Amazon', type: 'amazonOffers', icon: 'amazon', visible: true},
                     {name: 'Offers from eBay', type: 'ebayOffers', icon: 'ebay', visible: true}
                 ]
